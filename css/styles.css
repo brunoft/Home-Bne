@@ -1,0 +1,220 @@
+h1, h2, h3, h4{
+
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+/*HEADER*/
+.header-logo{
+  background-color: #ef9a9a;
+  height: 50px;
+}
+
+.menu-nav{
+  background-color: #e57373;
+  height: 50px;
+
+}
+
+/*MAIN*/
+.nav-tabs{
+  border-bottom: 0px!important;
+  margin-top: 8px;
+}
+
+.tab-content{
+  margin-bottom: 8px;
+}
+
+.tb-blue{
+  background-color: #114d85;
+  width: auto;
+  text-align: center;
+  width: 40%;
+  white-space: nowrap;
+}
+
+.tab-green{
+  background-color: #689f38;
+  margin-left: 8px;
+  text-align: center;
+  width: 45%;
+  white-space: nowrap;
+}
+
+
+.nav-tabs > li > a{
+  border: none!important;
+  border-radius: 0px!important;
+  color: white!important;
+}
+
+.nav-tabs > li.active > a{
+  color: none!important;
+  background-color: inherit!important;
+  margin-right: 0px!important;
+}
+
+.nav > li > a:focus, .nav > li > a:hover{
+  background-color: inherit!important;
+}
+
+.tab-content-blue{
+  background-color: #114d85;
+  padding: 16px;
+
+
+}
+.tab-content-green{
+  background-color: #689f38;
+  padding: 16px;
+}
+
+
+.title-tab{
+  color: white;
+  text-align: center;
+  padding-top: 4px;
+  padding-bottom: 16px;
+}
+
+.form-edit{
+  padding-bottom: 8px;
+}
+
+.btn{
+    width: 100%;
+    color: white;
+}
+
+.btn:hover{
+  color: white!important;
+}
+
+.btn-search-vagas{
+  background-color: #114d85;
+  border: 1px solid white!important;
+}
+
+.btn-search-curriculos{
+  background-color: #689f38;
+  border: 1px solid white!important;
+}
+
+.pesquisa-avançada{
+  color: #92adb4;
+  text-align: center;
+  padding-top:16px;
+  text-transform: uppercase;
+}
+
+.pesquisa-avançada h4{
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.pesquisa-avançada a:hover{
+  color: inherit!important;
+  text-decoration: none;
+}
+
+.pesquisa-avançada a{
+  color: inherit!important;
+  cursor:pointer;
+}
+
+/*VAGAS*/
+.vagas{
+  background-color:#e1bee7;
+  height: 50px;
+}
+
+.vagas1{
+  background-color:#ce93d8;
+  height: 50px;
+}
+
+.vagas2{
+  background-color:#ba68c8;
+  height: 50px;
+}
+
+
+/*NUMEROS*/
+  .numero{
+    background-color: #c5cae9;
+    height: 40px;
+  }
+  .numero1{
+    background-color: #9fa8da;
+    height: 40px;
+  }
+  .numero2{
+    background-color: #7986cb;
+    height: 40px;
+  }
+
+/*CURRICULO&EMPRESA*/
+.cad-curriculo{
+  background-color: #90caf9;
+  height: 50px;
+}
+.cad-empresa{
+  background-color: #64b5f6;
+  height: 50px;
+}
+
+/*EmpresasParceiras*/
+.title{
+  background-color: #4db6ac;
+  height: 50px;
+}
+
+.carrosel{
+  background-color: #80cbc4;
+  height: 50px;
+}
+
+/*PESQUISA-POR-AREA*/
+.area{
+  background-color: #81c784;
+  height: 100px;
+}
+
+.button{
+  background-color: #66bb6a;
+  height: 50px;
+}
+
+/*DEPOIMENTOS*/
+.dep1{
+  background-color: #e6ee9c;
+  height: 50px;
+}
+
+.dep2{
+  background-color: #dce775;
+  height: 50px;
+}
+
+/*FOOTER*/
+.logo-footer{
+  background-color: #ffcc80;
+  height: 50px;
+}
+
+.candidatos{
+  background-color: #ffb74d;
+  height: 50px;
+}
+
+.empresas{
+  background-color: #ffa726;
+  height: 50px;
+}
+
+.institucional{
+  background-color: #ff9800;
+  height: 50px;
+
+}

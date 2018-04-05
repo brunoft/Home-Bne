@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>HomeBNE</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script>
+
+    </script>
+  </head>
+  <body>
+    <!--HEADER-->
+    <header>
+      <section class="container-fluid">
+        <section>
+          <div class="">
+            <div class="container header-top">
+              <div class="col-md-4 col-sm-6 col-xs-4 header-logo">
+                <img src="" alt="">
+              </div>
+              <div class="col-md-8 col-sm-6 col-xs-8 menu-nav">
+              </div>
+            </div>
+          </div>
+        </section>
+      </header>
+      <!--MAIN-->
+      <section>
+        <div class="main-background">
+          <div class="container main-search">
+            <div class="panel-search col-md-6 col-md-offset-6 col-sm-8  col-sm-offset-4 col-xs-10 col-xs-offset-1 tabs ">
+              <!-- Nav tabs -->
+              <ul class="nav nav-tabs" role="tablist">
+                <li role="presentation" class="active tb-blue "><a href="#busca-vagas" aria-controls="busca-vagas" role="tab" data-toggle="tab">Buscar VAGAS</a></li>
+                <li role="presentation" class="tab-green "><a href="#busca-curriculo" aria-controls="busca-curriculo" role="tab" data-toggle="tab">Buscar CURRÍCULOS</a></li>
+              </ul>
+              <!-- Tab panes -->
+              <div class="tab-content">
+                <div role="tabpanel" class="tab-pane active" id="busca-vagas">
+                  <section class=" tab-content-blue">
+                    <form>
+                      <div class="title-tab">
+                        <h4>Procurando<strong> vagas de emprego?<br/>
+                          Encontre aqui!</strong></h4>
+                      </div>
+                      <div class="form-edit">
+                        <input type="text" class="form-control" id="" placeholder="Função">
+                      </div>
+                      <div class="form-edit">
+                        <input type="text" class="form-control" id="" placeholder="Cidade/Estado">
+                      </div>
+                      <div>
+                        <button type="submit" class="btn btn-search-vagas"><strong>BUSCAR VAGAS</strong></button>
+                      </div>
+                      <div class="pesquisa-avançada">
+                        <h4><a>Pesquisa Avançada</a></h4>
+                      </div>
+                    </form>
+                  </section>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="busca-curriculo">
+                  <section class=" tab-content-green">
+                    <form>
+                      <div class="title-tab">
+                        <h4>Procurando<strong> currículos?<br/>
+                          Encontre aqui!</strong></h4>
+                      </div>
+                      <div class="form-edit">
+                        <input type="text" class="form-control" id="" placeholder="Função">
+                      </div>
+                      <div class="form-edit">
+                        <input type="text" class="form-control" id="" placeholder="Cidade/Estado">
+                      </div>
+                      <div class="form-edit">
+                        <input type="text" class="form-control" id="" placeholder="Palavra-chave">
+                      </div>
+                      <div>
+                        <button type="submit" class="btn btn-search-curriculos"><strong>PESQUISAR CURRÍCULO</strong></button>
+                      </div>
+                      <div class="pesquisa-avançada">
+                        <h4><a>Pesquisa Avançada</a></h4>
+                      </div>
+                    </form>
+                  </section>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--VAGAS-->
+      <section>
+        <div class="container">
+          <div class="box-vagas"></div>
+          <div class="col-md-4 col-sm-12 vagas"></div>
+          <div class="col-md-4 hidden-sm vagas1">  </div>
+          <div class="col-md-4 hidden-sm vagas2"></div>
+      <!--NUMEROS-->
+          <div class="col-md-4 hidden-sm numero"></div>
+          <div class="col-md-4 hidden-sm numero1"></div>
+          <div class="col-md-4 hidden-sm numero2"></div>
+        </div>
+      </section>
+      <!--CURRICULO-EMPRESA-->
+      <section>
+        <div class="container">
+          <div class="col-md-6  cad-curriculo"></div>
+          <div class="col-md-6 cad-empresa"></div>
+        <!--EMPRESSAS-PARCEIRAS-->
+            <div class="col-md-12 title"><h4>TITLE</h4> </div>
+          <div class="col-md-12 carrosel"></div>
+        </div>
+      </section>
+      <section>
+        <!--PESQUISA-POR-AREA-->
+        <div class="container">
+          <div class="col-md-12 title"><h4>TITLE</h4></div>
+          <div class="col-md-12 area"></div>
+          <div class="col-md-12 button"></div>
+        </div>
+      </section>
+        <!--DEPOIMENTOS-->
+        <section>
+          <div class="container">
+            <div class="col-md-12 title"><h4>TITLE</h4></div>
+            <div class="col-md-6 col-sm-6 dep1"></div>
+            <div class="col-md-6 col-sm-6 dep2"></div>
+          </div>
+        </section>
+        <!--FOOTER-->
+        <footer>
+          <section class="container ">
+            <div class="">
+              <div class="col-md-5 col-sm-12  logo-footer"></div>
+              <div class="col-md-3 col-sm-12  candidatos"></div>
+              <div class="col-md-2 col-sm-12  empresas"></div>
+              <div class="col-md-2 col-sm-12  institucional"></div>
+            </div>
+          </section>
+        </footer>
+      </section>
+  </body>
+</html>
