@@ -42,6 +42,9 @@ h1, h2, h3, h4{
   white-space: nowrap;
 }
 
+.nav-tabs > li{
+margin: 0px!important;
+}
 
 .nav-tabs > li > a{
   border: none!important;
@@ -80,6 +83,10 @@ h1, h2, h3, h4{
 
 .form-edit{
   padding-bottom: 8px;
+}
+
+.form-control{
+  box-shadow: inherit!important;
 }
 
 .btn{
